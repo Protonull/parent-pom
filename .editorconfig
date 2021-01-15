@@ -1,0 +1,16 @@
+# Editorconfig is awesome: http://EditorConfig.org
+
+# Unix-style newlines with a newline ending every file
+[*]
+charset = utf-8
+indent_style = space
+end_of_line = crlf
+insert_final_newline = true
+max_line_length = 120
+tab_width = 4
+
+[*.xml]
+indent_size = 2
+
+[LICENSE.txt]
+max_line_length = 80
